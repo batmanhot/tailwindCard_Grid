@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Solucion a Tarjeta con efecto de ojo con Tailwind Grid</title>
+
+  <link rel="stylesheet" href="./src/output.css">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+
+      
+</head>
+<body class="bg-Blue-950-main-BG text-White h-screen grid place-content-center ">
+    <main>
+      <div class="w-[327px] bg-Blue-900-card-BG p-6 rounded-[15] mb-3 cursor-pointer hover:text-Cyan-400">
+
+        <div class="relative mb-6 group">
+          <img class="rounded-lg" src="./images/image-equilibrium.jpg" alt="imagen1">
+
+          <div class="bg-Cyan-400/50 absolute top-0 w-full h-full place-content-center rounded-lg hidden cursor-pointer group-hover:grid">
+            <img src="./images/icon-view.svg" alt="icon-view.svg">
+          </div>
+        </div>
+
+
+        <h2 class="font-semibold text-[1.22em] mb-3">Equilibrium #3429</h2>
+        <p class="text-Blue-500 mb-4">Our Equilibrium collection promotes balance and calm.</p>
+
+        <div class="flex place-content-between mb-4 ">
+          <div class="flex gap-1.5 items-center">
+            <img src="./images/icon-ethereum.svg" alt="icon-ethereum.svg">            
+            <p class="text-Cyan-400">0.041 ETH</p>
+          </div>
+
+          <div class="flex gap-1.5 items-center">
+            <img src="./images/icon-clock.svg" alt="icon-clock.svg">
+            <p>3 days left</p>
+          </div>
+        </div>
+
+          <hr class="text-Blue-800-line mb-4">
+          <div class="flex items-center gap-4">
+            <img class="w-[33px] h-[33px] border border-white rounded-full" src="./images/image-avatar.png" alt="image-avatar.png">
+            <p class="text-Blue-500">Creation of   
+                <span class="text-White text-sm cursor-pointer hover:text-Cyan-400">Jules Wyvern</span>
+            </p>
+          </div>
+      </div>
+    </main>
+  
+</body>
+</html>
